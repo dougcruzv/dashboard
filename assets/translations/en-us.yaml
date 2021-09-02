@@ -3849,6 +3849,7 @@ tableHeaders:
   components: Components
   commit: Commit
   condition: Condition
+  controlPlaneCount: Control Plane Count
   count: Count
   customVerbs: Custom Verbs
   dateRange: Date Range
@@ -3964,6 +3965,7 @@ tableHeaders:
   value: Value
   version: Version
   weight: Weight
+  workloadCount: Workload Count
 
 target:
   router:
