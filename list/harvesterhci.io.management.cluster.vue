@@ -75,9 +75,6 @@ export default {
       :is-creatable="false"
       :type-display="typeDisplay"
     >
-      <template #typeDescription>
-        <TypeDescription :resource="hResource" />
-      </template>
 
       <template slot="extraActions">
         <n-link
