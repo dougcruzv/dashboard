@@ -262,8 +262,7 @@ export default {
             label:       chart.chartNameDisplay,
             description: chart.chartDescription,
             icon:        chart.icon || require('~/assets/images/generic-catalog.svg'),
-            group:       'template',
-            tag:         getters['i18n/t']('generic.techPreview')
+            group:       'template'
           });
         });
 
@@ -316,8 +315,7 @@ export default {
           iconClass,
           group,
           disabled,
-          link,
-          tag
+          link
         };
 
         out.push(subtype);
@@ -471,7 +469,6 @@ export default {
           :rows="obj.types"
           key-field="id"
           name-field="label"
-          side-label-field="tag"
           :color-for="colorFor"
           @clicked="clickedType"
         />

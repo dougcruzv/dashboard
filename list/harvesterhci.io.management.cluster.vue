@@ -81,9 +81,6 @@ export default {
       :is-creatable="false"
       :type-display="typeDisplay"
     >
-      <template #typeDescription>
-        <TypeDescription :resource="hResource" />
-      </template>
 
       <template v-if="canCreateCluster" slot="extraActions">
         <n-link
