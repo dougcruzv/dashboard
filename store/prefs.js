@@ -93,6 +93,7 @@ export const READ_WHATS_NEW = create('read-whatsnew', '', { parseJSON });
 export const AFTER_LOGIN_ROUTE = create('after-login-route', 'home', { parseJSON } );
 export const HIDE_HOME_PAGE_CARDS = create('home-page-cards', {}, { parseJSON } );
 
+export const DISABLE_RKE_TOGGLE = true;
 export const _RKE1 = 'rke1';
 export const _RKE2 = 'rke2';
 export const PROVISIONER = create('provisioner', _RKE2, { options: [_RKE1, _RKE2] });

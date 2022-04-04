@@ -198,7 +198,7 @@ export default {
     rke2Enabled: mapFeature(RKE2_FEATURE),
 
     showRkeToggle() {
-      return this.rke2Enabled && !this.isImport;
+      return this.rke2Enabled && !this.isImport && !DISABLE_RKE_TOGGLE;
     },
 
     provisioner: {
